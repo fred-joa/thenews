@@ -1,0 +1,53 @@
+/*----MINI CARD*/
+.mcard-img{
+    height: 100px;
+}
+
+/* card Image*/
+.img-absolute{
+    height: 250px;
+}
+
+.height-block{
+    height: 300px;
+}
+@media screen and (min-width:576px) {
+    .mcard-img{
+        height: 200px;
+    }
+    .img-absolute{
+        height: 350px;
+    }
+    .height-block{
+        height: 350px;
+    }
+}
+@media screen and (min-width:768px) {
+   .card-img{
+    height: 350px;
+   }
+    
+}
+@media screen and (min-width:992px) {
+    .mcard-img{
+        height: 140px;
+    }
+    .card-img{
+        height: 290px;
+    }
+
+    .img-absolute{
+        height: 320px;
+    }
+    .height-block{
+        height: 350px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .img-absolute{
+        height: 360px;
+    }
+    .mcard-img{
+        height: 160px;
+    }
+}

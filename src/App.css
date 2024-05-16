@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+img{
+    object-fit: cover;
+}
+@media screen and (max-width:576px) {
+    *{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+}
+
+
+
+/*Header*/
+.icon-weather{
+    -webkit-filter: drop-shadow(1px 1px 0 black)
+                    drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(1px 1px 0 black) 
+            drop-shadow(-1px -1px 0 black);
+}
+.title-text{
+    font-weight: 600;
+}
+.small-text{
+    font-size: 14px;
+}
+/*Navbar*/
+.navbar-nav .nav-link{
+    font-weight: 600;
+}
+.navbar-nav div.nav-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #cecece;
+    text-underline-offset: 2px;
+}
+.show + .user-nav{
+    margin: auto;
+}
+
+/*background*/
+.bg-s4{
+    background-color: #f1f1f1
+}
+
+
+/*-----Footer-----*/
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    color: #fff;
+    list-style-type: none;
+    font-size: 14px;
+}
+footer a{
+    text-decoration: none;
+    color: #cecece;
+}
+
